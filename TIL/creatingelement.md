@@ -1,4 +1,5 @@
-#Creating Element
+# Creating Element
+```html
 let li=document.createElement('li');    //created a tag <li>
 we can create a element and add classname,id,setAttributes and append textNodes
 HTML PART: For eg
@@ -8,3 +9,4 @@ HTML PART: For eg
     li.setAttribute('title','mylist');                                          // it shows as title="mylist">on li tag
     li.appendChild(document.createTextNode('hellonewlist'));
     //syntax:<li>hellowlist</li>
+```
